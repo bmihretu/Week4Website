@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+
+<head>
+    <title>Home</title>
+    <link href="../static/css/stylesheet.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <div th:insert="base :: bootstrap"></div>
+
+</head>
+<body>
+
+<!--Statring Space-->
+
+
+<div class="row">
+
+    <div class="main">
+
+        <div class="header">
+            <h1 style="font-family: monospace;">
+                <a href="/home" class="logo"><b> Java Bootcamp</b></a>
+            </h1>
+        </div>
+
+        <div class="col-md-6">
+            <div th:insert="base :: navbar"></div>
+
+            <!--<div class="navbar">-->
+            <!--&lt;!&ndash;<nav class="nav nav-pills nav-justified">&ndash;&gt;-->
+            <!--<h3 style="font-family: monospace" ;><a class="nav-item nav-link" href="#">Home</a>-->
+            <!--<a class="nav-item nav-link" href="/about">About</a>-->
+            <!--<a class="nav-item nav-link" href="/authors">Author</a>-->
+            <!--<a class="dropdown-item" href="/programdeign">Program Design</a>-->
+            <!--<a class="dropdown-item" href="/oop">OOP</a>-->
+            <!--<a class="dropdown-item" href="/html">HTML</a>-->
+            <!--<a class="dropdown-item" href="/github">Github</a>-->
+            <!--<a class="dropdown-item" href="/corejava">Core Java</a>-->
+
+            <!--&lt;!&ndash;Create dropdown&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">&ndash;&gt;-->
+            <!--&lt;!&ndash;<a class="dropdown-item" href="/programdeign">Program Design</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;<a class="dropdown-item" href="/oop">OOP</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;<a class="dropdown-item" href="/html">HTML</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;<a class="dropdown-item" href="/github">Github</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;<a class="dropdown-item" href="/corejava">Core Java</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+            <!--</h3>-->
+            <!--</nav>-->
+
+            <!--</div>-->
+        </div>
+
+
+        <!--For Ansu Content-->
+
+
+        <!--Just space-->
+
+        <div class="footer">
+            <h1 align="center" >(...);</h1>
+            <h3 style="font-family: monospace" ;>Website by Bk & Ansu</h3>
+        </div>
+    </div>
+</div>
+<div th:insert="base :: script"></div>
+
+</body>
+
+</html>
